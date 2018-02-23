@@ -553,6 +553,19 @@ table {
 	letter-spacing: 2px;
 }
 
+.subTitleArrowSection{
+	padding: 0px 40px 0px 40px;
+	background: url(../images/icon/arrow-turquoise.svg) no-repeat center left;
+	background-size: 10px;
+}
+.subTitleArrowSection h2{
+	text-transform: uppercase;
+	color: #366c90;
+	font-size: 25px;
+	font-weight: 700;
+	letter-spacing: 2px;
+}
+
 .descriptionSection{
 	padding: 0px 40px 0px 40px;
 	border-left: 2px solid #8e8e8e;
@@ -1836,7 +1849,7 @@ input:checked + .slider:before {
 	color: #ffffff;
 }
 
-.tableDefaultDDE td{ padding: 7px 8px; font-size: 14px; }
+.tableDefaultDDE td{ padding: 7px 8px; font-size: 14px; min-width: 120px; }
 /*.tableDefaultDDE td:nth-child(2n+1){background-color: rgba(0,0,0,0.02); }*/
 .tableDefaultDDE tr:nth-child(2n+2){background-color: rgba(0,0,0,0.04); }
 .tableDefaultDDE tr.header td{ color: #ffffff; text-transform: uppercase; font-family: "Roboto Condensed", Sans-Serif; font-weight: 500;}
@@ -1851,6 +1864,19 @@ input:checked + .slider:before {
 	font-family: "Roboto Condensed", Sans-Serif;
 	color: #4D4D4D;
 }
+
+.tableDefaultDDE tr.totalBox{ background-color: #FAFAFA; }
+.tableDefaultDDE tr.totalBox td.totalTitle{
+	background-color: #41ADCE;
+	color: #ffffff;
+	padding-right:20px;
+	text-align: right;
+	font-weight: 700;
+	font-size: 16px;
+	font-family: "Roboto Condensed", Sans-Serif;
+	letter-spacing: 1px;
+}
+
 
 tr.headerTableBlue{
 	background-color: #366D90 !important;
