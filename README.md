@@ -6,11 +6,11 @@ If there are something that can't be used in the ExecEye Platform you can replac
 
 ## - - - - FOLDERS - - - - -
 
-##**Folder: notneeded**
+##Folder: **notneeded**
 This folder contains files that are not necessary and that **were used only for a graphic example like Pop Up's.** This files can be deleted when those examples had been replaced with a supported code.
 
-##**HTML & CSS**
-
+##Folder: **assets**
 In the **Assets** folder are all the images, CSS & JS files.
 
-In the **Views** folder are the HTML files of the child reports views.
+##Folder: **views**
+In the **Views** folder are the HTML files of the child reports views grouped in subfolders such as Baxter ByModel, OCC By Model, Contest, F&I, etc.
