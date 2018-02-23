@@ -125,6 +125,10 @@ table {
     transition: all .2s ease-in-out;
 }
 
+.popUpBtn{
+	cursor: pointer;
+}
+
 
 /* - - - - - - - - - - - - */
 /* - - - - - - - - - - */
@@ -1926,6 +1930,8 @@ td.titleTableDefaultDDE{
 	letter-spacing: 3px;
 	font-weight: 700;
 }
+
+.containerTable{ overflow-x: auto; width: 100%; }
 
 table.ddeTable tr.headerBlue{ background-color: #3F8BD7; }
 table.ddeTable tr.headerDarkBlue{ background-color: #376D91; }

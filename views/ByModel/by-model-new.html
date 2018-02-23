@@ -190,7 +190,7 @@
 					</div>
 				</div>
 				<!--  - - - - - -  -->
-				<div class="animateFadeInUp">
+				<div class="animateFadeInUp containerTable">
 					<table class="ddeTable byModel height40 txtAlignCenter">
 						<tr>
 							<td class="box">
@@ -230,7 +230,7 @@
 									</tr>
 									<tr>
 										<td class="alignLeft subItem-2">
-											<table style="width: 100%;" align="left">
+											<table style="width: 100%;" class="popUpBtn" align="left" data-toggle="modal" data-target="#myModal">
 												<tr>
 													<td width="30px">
 														<div class="iconDDE icon-plus icon-sm"></div>
@@ -571,7 +571,35 @@
 				<!--  - - - - - -  -->
 			</div>
 		</div>
+
+		<!-- Modal -->
+		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog" role="document">
+			    <div class="modal-content">
+			    	<div class="modal-header">
+			    		<h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+				        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				        	<span aria-hidden="true">&times;</span>
+				        </button>
+				    </div>
+				    <div class="modal-body">
+				    	...
+				    </div>				        
+			    </div>
+		  </div>
+		</div>
+
 		<script src="../../assets/js/jquery.min.js"></script>
 		<script src="../../assets/js/app.js"></script>
+
+		<!-- Bootstrap (I used it just for a example of a pop up) -->
+		<style type="text/css">
+			.modal-dialog {
+			    max-width: 500px;
+			    margin: 130px auto !important;
+			}
+		</style>
+		<link rel="stylesheet" href="../../notneeded/bootstrap.css">
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
 	</body>
 </html>
