@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Executive Eye 3.0</title>
+		<!-- FONTS -->
+		<link rel="stylesheet" href="../../assets/fonts/Roboto/roboto.css" type="text/css"/>
+
+		<!-- CSS Stylesheets -->
+		<link rel="stylesheet" href="../../assets/css/occ.css" title="General Styles" type="text/css">
+	</head>
+	<body>
+		<!-- - - - - - - - - -->
+		<!-- - - - - - - - - -->
+		<!-- - - - - - - - - -->
+		<!-- CONTAINER TOP BAR -->
+		<div id="containerTopBar">
+			<h1 class="logoCDK">Executive Eye</h1>
+			<div id="topGeneralMenu">
+				<div class="topMenu">
+					<div class="itemMenu">
+						<a href="#">
+							<div class="iconItemMenu"></div>
+							<p class="textItemMenu">Juan Cabezas</p>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- - - - - - - - - -->
+		<!-- - - - - - - - - -->
+		<!-- - - - - - - - - -->
+		<!-- CONTAINER LEFT MENU -->
+		<div id="containerLeft">
+			<div id="menuLeft">
+				<div class="itemMenu selected">
+					<a href="#">
+						<div class="iconItemMenu icon-menu-dashboard"></div>
+						<div class="containerTextItemMenu">
+							<p class="textItemMenu">Dashboard</p>
+						</div>
+					</a>
+				</div>
+				<div class="itemMenu">
+					<a href="#">
+						<div class="iconItemMenu icon-menu-kpi"></div>
+						<div class="containerTextItemMenu"><p class="textItemMenu">KPI</p></div>
+					</a>
+				</div>
+				<div class="itemMenu">
+					<a href="#">
+						<div class="iconItemMenu icon-menu-docs"></div>
+						<div class="containerTextItemMenu"><p class="textItemMenu">Docs</p></div>
+					</a>
+				</div>
+				<div class="itemMenu">
+					<a href="#">
+						<div class="iconItemMenu icon-menu-schedules"></div>
+						<div class="containerTextItemMenu"><p class="textItemMenu">Schedules</p></div>
+					</a>
+				</div>
+				<div class="itemMenu">
+					<a href="#">
+						<div class="iconItemMenu icon-menu-operations"></div>
+						<div class="containerTextItemMenu"> <p class="textItemMenu">Operations</p> </div>
+					</a>
+				</div>
+				<div class="itemMenu">
+					<a href="#">
+						<div class="iconItemMenu icon-menu-expense"></div>
+						<div class="containerTextItemMenu"><p class="textItemMenu">Expense Management</p></div>
+					</a>
+				</div>
+				<div class="itemMenu">
+					<a href="#">
+						<div class="iconItemMenu icon-menu-customReports"></div>
+						<div class="containerTextItemMenu"><p class="textItemMenu">Custom Reports</p></div>
+					</a>
+				</div>
+				<div class="itemMenu">
+					<a href="#">
+						<div class="iconItemMenu icon-menu-users"></div>
+						<div class="containerTextItemMenu"><p class="textItemMenu">Users</p></div>
+					</a>
+				</div>
+			</div>
+			<!-- - - - - - - - - -->
+			<!-- - - - - - - - - -->
+			<div class="menuBottom">
+				<div class="itemMenu">
+					<a href="#">
+						<div class="iconItemMenu"></div>
+					</a>
+				</div>
+				<div class="itemMenu">
+					<a href="#">
+						<div class="iconItemMenu"></div>
+					</a>
+				</div>
+			</div>
+		</div>
+		<!-- - - - - - - - - -->
+		<!-- - - - - - - - - -->
+		<!-- - - - - - - - - -->
+		<!-- CONTAINER RIGHT -->
+		<div id="containerRight">
+			<div class="sectionMenu">
+				<div class="containerSectionMenu">
+					<a href="../../new.html">
+						<div class="btnGoBack-childR">Go Back</div>
+					</a>
+					<div class="titleSection">
+						<h2>By Model</h2>
+					</div>
+					<div class="descriptionSection">
+						<h4>New Sales</h4>
+						<h5>Dashboard Summary</h5>
+					</div>
+					<div class="menuExport">
+						<a href="#" class="btnExportMenu">
+							<div class="iconExportMenu icon-pdf"></div>
+						</a>
+						<a href="#" class="btnExportMenu">
+							<div class="iconExportMenu icon-download"></div>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="sectionSubMenu">
+				<nav>
+					<ol>
+						<a>
+							<li class="selected">New</li>
+						</a>
+					</ol>
+				</nav>
+			</div>
+
+			<div class="boxContainerInfo serviceDetailChildReport">
+				<div class="animateFadeInUp">
+					<div class="menuTableDarkBlue noMarginTop">
+						<div class="leftItems">
+							<table style="width: 100%;" align="left">
+								<tr>
+									<td width="30px">
+										<div class="iconDDE icon-plus-white icon-sm"></div>
+									</td>
+									<td align="left">
+										<h5>SHOW BREAKDOWNS</h5>
+									</td>
+								</tr>
+							</table>
+						</div>
+						<div class="rightItems">
+							<div class="toggleButton">
+								<div class="leftItems itemToggle-1">
+									MTD
+								</div>
+								<div class="leftItems">
+									<label class="switch">
+									  <input type="checkbox">
+									  <span class="slider round"></span>
+									</label>
+								</div>
+								<div class="leftItems itemToggle-2 green">MTY</div>
+							</div>
+							<div class="toggleButton">
+								<div class="leftItems itemToggle-1">
+									BUDGET
+								</div>
+								<div class="leftItems">
+									<label class="switch">
+									  <input type="checkbox" id="checkbox4">
+									  <span class="slider round"></span>
+									</label>
+								</div>
+							</div>
+							<div class="toggleButton">
+								<div class="leftItems itemToggle-1">
+									View Trend
+								</div>
+								<div class="leftItems">
+									<label class="switch">
+									  <input type="checkbox">
+									  <span class="slider round"></span>
+									</label>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--  - - - - - -  -->
+				<div class="animateFadeInUp">
+					<table class="ddeTable byModel height40 txtAlignCenter">
+						<tr>
+							<td class="box">
+								<table class="bgGray-2">
+									<tr>
+										<td>
+											<h4 class="padd15-V titleDarkBlue white">.</h4>
+										</td>
+									</tr>
+									<tr class="bgGray">
+										<td class="alignLeft">
+											<table style="width: 100%;" align="left">
+												<tr>
+													<td width="30px">
+														<div class="iconDDE icon-minus icon-sm"></div>
+													</td>
+													<td align="left">
+														<h6>RETAIL</h6>
+													</td>
+												</tr>
+											</table>
+										</td>
+									</tr>
+									<tr>
+										<td class="alignLeft subItem-1">
+											<table style="width: 100%;" align="left">
+												<tr>
+													<td class="iconTd">
+														<div class="iconDDE icon-minus icon-sm"></div>
+													</td>
+													<td align="left">
+														<h6>NEW</h6>
+													</td>
+												</tr>
+											</table>
+										</td>
+									</tr>
+									<tr>
+										<td class="alignLeft subItem-2">
+											<table style="width: 100%;" align="left">
+												<tr>
+													<td width="30px">
+														<div class="iconDDE icon-plus icon-sm"></div>
+													</td>
+													<td align="left">
+														<h6>401 - Civic Hybrid</h6>
+													</td>
+												</tr>
+											</table>
+										</td>
+									</tr>
+									<tr>
+										<td class="alignLeft subItem-2">
+											<table style="width: 100%;" align="left">
+												<tr>
+													<td width="30px">
+														<div class="iconDDE icon-plus icon-sm"></div>
+													</td>
+													<td align="left">
+														<h6>402 - Civic 4 dr</h6>
+													</td>
+												</tr>
+											</table>
+										</td>
+									</tr>
+									<tr>
+										<td class="alignLeft subItem-2">
+											<table style="width: 100%;" align="left">
+												<tr>
+													<td width="30px">
+														<div class="iconDDE icon-plus icon-sm"></div>
+													</td>
+													<td align="left">
+														<h6>403 - Odyssey</h6>
+													</td>
+												</tr>
+											</table>
+										</td>
+									</tr>
+									<tr>
+										<td class="alignLeft subItem-2">
+											<table style="width: 100%;" align="left">
+												<tr>
+													<td width="30px">
+														<div class="iconDDE icon-plus icon-sm"></div>
+													</td>
+													<td align="left">
+														<h6>404 - CRZ</h6>
+													</td>
+												</tr>
+											</table>
+										</td>
+									</tr>
+									<tr>
+										<td class="alignLeft subItem-2">
+											<table style="width: 100%;" align="left">
+												<tr>
+													<td width="30px">
+														<div class="iconDDE icon-plus icon-sm"></div>
+													</td>
+													<td align="left">
+														<h6>405 - Element</h6>
+													</td>
+												</tr>
+											</table>
+										</td>
+									</tr>
+									<tr>
+										<td class="alignLeft subItem-2">
+											<table style="width: 100%;" align="left">
+												<tr>
+													<td width="30px">
+														<div class="iconDDE icon-plus icon-sm"></div>
+													</td>
+													<td align="left">
+														<h6>406 - Accord Crosstour</h6>
+													</td>
+												</tr>
+											</table>
+										</td>
+									</tr>
+								</table>
+							</td>
+							<td class="box info">
+								<table class="whiteBox">
+									<tr>
+										<td colspan="3">
+											<h4 class="padd15-V titleDarkBlue">Units</h4>
+										</td>
+									</tr>
+									<tr class="bgGray subTitle">
+										<td class="">ACTUAL</td>
+										<td class="budget title">LAST YEAR</td>
+										<td class="">VARIANCE</td>
+									</tr>
+									<tr>
+										<td>281</td>
+										<td class="budget info">
+											<input class="budgetInput" type="text" value="275" readonly="">
+											<div class="btnEditBudget"></div>
+										</td>
+										<td><h6 class="green">6</h6></td>
+									</tr>
+									<tr>
+										<td>281</td>
+										<td class="budget info">
+											<input class="budgetInput" type="text" value="275" readonly="">
+											<div class="btnEditBudget"></div>
+										</td>
+										<td><h6 class="red">-25</h6></td>
+									</tr>
+									<tr>
+										<td>281</td>
+										<td class="budget info">
+											<input class="budgetInput" type="text" value="275" readonly="">
+											<div class="btnEditBudget"></div>
+										</td>
+										<td><h6 class="green">36</h6></td>
+									</tr>
+									<tr>
+										<td>281</td>
+										<td class="budget info">
+											<input class="budgetInput" type="text" value="275" readonly="">
+											<div class="btnEditBudget"></div>
+										</td>
+										<td><h6 class="red">-10</h6></td>
+									</tr>
+									<tr>
+										<td>281</td>
+										<td class="budget info">
+											<input class="budgetInput" type="text" value="275" readonly="">
+											<div class="btnEditBudget"></div>
+										</td>
+										<td><h6 class="green">6</h6></td>
+									</tr>
+									<tr>
+										<td>281</td>
+										<td class="budget info">
+											<input class="budgetInput" type="text" value="275" readonly="">
+											<div class="btnEditBudget"></div>
+										</td>
+										<td><h6>0</h6></td>
+									</tr>
+									<tr>
+										<td>281</td>
+										<td class="budget info">
+											<input class="budgetInput" type="text" value="275" readonly="">
+											<div class="btnEditBudget"></div>
+										</td>
+										<td><h6 class="green">6</h6></td>
+									</tr>
+								</table>
+							</td>
+							<td class="box info">
+								<table class="whiteBox">
+									<tr>
+										<td colspan="3">
+											<h4 class="padd15-V titleDarkBlue">Units</h4>
+										</td>
+									</tr>
+									<tr class="bgGray subTitle">
+										<td class="">ACTUAL</td>
+										<td class="budget title">LAST YEAR</td>
+										<td class="">VARIANCE</td>
+									</tr>
+									<tr>
+										<td>281</td>
+										<td class="budget info">
+											<input class="budgetInput" type="text" value="275" readonly="">
+											<div class="btnEditBudget"></div>
+										</td>
+										<td><h6 class="green">6</h6></td>
+									</tr>
+									<tr>
+										<td>281</td>
+										<td class="budget info">
+											<input class="budgetInput" type="text" value="275" readonly="">
+											<div class="btnEditBudget"></div>
+										</td>
+										<td><h6 class="red">-25</h6></td>
+									</tr>
+									<tr>
+										<td>281</td>
+										<td class="budget info">
+											<input class="budgetInput" type="text" value="275" readonly="">
+											<div class="btnEditBudget"></div>
+										</td>
+										<td><h6 class="green">36</h6></td>
+									</tr>
+									<tr>
+										<td>281</td>
+										<td class="budget info">
+											<input class="budgetInput" type="text" value="275" readonly="">
+											<div class="btnEditBudget"></div>
+										</td>
+										<td><h6 class="red">-10</h6></td>
+									</tr>
+									<tr>
+										<td>281</td>
+										<td class="budget info">
+											<input class="budgetInput" type="text" value="275" readonly="">
+											<div class="btnEditBudget"></div>
+										</td>
+										<td><h6 class="green">6</h6></td>
+									</tr>
+									<tr>
+										<td>281</td>
+										<td class="budget info">
+											<input class="budgetInput" type="text" value="275" readonly="">
+											<div class="btnEditBudget"></div>
+										</td>
+										<td><h6>0</h6></td>
+									</tr>
+									<tr>
+										<td>281</td>
+										<td class="budget info">
+											<input class="budgetInput" type="text" value="275" readonly="">
+											<div class="btnEditBudget"></div>
+										</td>
+										<td><h6 class="green">6</h6></td>
+									</tr>
+								</table>
+							</td>
+							<td class="box info">
+								<table class="whiteBox">
+									<tr>
+										<td colspan="3">
+											<h4 class="padd15-V titleDarkBlue">Units</h4>
+										</td>
+									</tr>
+									<tr class="bgGray subTitle">
+										<td class="">ACTUAL</td>
+										<td class="budget title">LAST YEAR</td>
+										<td class="">VARIANCE</td>
+									</tr>
+									<tr>
+										<td>281</td>
+										<td class="budget info">
+											<input class="budgetInput" type="text" value="275" readonly="">
+											<div class="btnEditBudget"></div>
+										</td>
+										<td><h6 class="green">6</h6></td>
+									</tr>
+									<tr>
+										<td>281</td>
+										<td class="budget info">
+											<input class="budgetInput" type="text" value="275" readonly="">
+											<div class="btnEditBudget"></div>
+										</td>
+										<td><h6 class="red">-25</h6></td>
+									</tr>
+									<tr>
+										<td>281</td>
+										<td class="budget info">
+											<input class="budgetInput" type="text" value="275" readonly="">
+											<div class="btnEditBudget"></div>
+										</td>
+										<td><h6 class="green">36</h6></td>
+									</tr>
+									<tr>
+										<td>281</td>
+										<td class="budget info">
+											<input class="budgetInput" type="text" value="275" readonly="">
+											<div class="btnEditBudget"></div>
+										</td>
+										<td><h6 class="red">-10</h6></td>
+									</tr>
+									<tr>
+										<td>281</td>
+										<td class="budget info">
+											<input class="budgetInput" type="text" value="275" readonly="">
+											<div class="btnEditBudget"></div>
+										</td>
+										<td><h6 class="green">6</h6></td>
+									</tr>
+									<tr>
+										<td>281</td>
+										<td class="budget info">
+											<input class="budgetInput" type="text" value="275" readonly="">
+											<div class="btnEditBudget"></div>
+										</td>
+										<td><h6>0</h6></td>
+									</tr>
+									<tr>
+										<td>281</td>
+										<td class="budget info">
+											<input class="budgetInput" type="text" value="275" readonly="">
+											<div class="btnEditBudget"></div>
+										</td>
+										<td><h6 class="green">6</h6></td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</table>
+					<table class="ddeTable byModel total height40 txtAlignCenter">
+						<tr>
+							<td class="box">
+								<table class="bgGray-2">
+									<tr class="bgGray">
+										<td class="txtAlignRight bgTotal" style="padding-right: 20px;">
+											<h6 class="white">TOTAL</h6>
+										</td>
+									</tr>
+								</table>
+							</td>
+							<td class="box">
+								<table class="whiteBox">
+									<tr class="bgGray-2">
+										<td>281</td>
+										<td>275</td>
+										<td><h6 class="green">6</h6></td>
+									</tr>
+								</table>
+							</td>
+							<td class="box">
+								<table class="whiteBox">
+									<tr class="bgGray-2">
+										<td>281</td>
+										<td>275</td>
+										<td><h6 class="green">6</h6></td>
+									</tr>
+								</table>
+							</td>
+							<td class="box">
+								<table class="whiteBox">
+									<tr class="bgGray-2">
+										<td>281</td>
+										<td>275</td>
+										<td><h6 class="green">6</h6></td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</table>
+				</div>
+				<!--  - - - - - -  -->
+				<!--  - - - - - -  -->
+			</div>
+		</div>
+		<script src="../../assets/js/jquery.min.js"></script>
+		<script src="../../assets/js/app.js"></script>
+	</body>
+</html>

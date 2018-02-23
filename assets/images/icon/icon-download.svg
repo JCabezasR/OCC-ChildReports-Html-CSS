@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="29px" height="36px" viewBox="0 0 29 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon - Download</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="47" height="47"></rect>
+    </defs>
+    <g id="F&amp;I---F&amp;I-Analysis" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-1808.000000, -142.000000)">
+        <g id="Top-Bar" transform="translate(263.000000, 96.000000)">
+            <g id="Group-276" transform="translate(0.000000, 41.907000)">
+                <g id="Icon---Download" transform="translate(1536.000000, 0.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Rectangle-2"></g>
+                    <polygon id="Triangle" fill="#51606B" mask="url(#mask-2)" points="23.5 31.025641 9 17.5641026 38 17.5641026"></polygon>
+                    <rect id="Rectangle-5" fill="#51606B" mask="url(#mask-2)" x="9" y="34.6153846" width="29" height="5.38461538"></rect>
+                    <rect id="Rectangle-4" fill="#51606B" mask="url(#mask-2)" x="17.15625" y="5" width="12.6875" height="13.4615385"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

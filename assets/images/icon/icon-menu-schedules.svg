@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="13px" height="15px" viewBox="0 0 13 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>calendar</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M12.5,5.625 L12.5,3.75 C12.5,3.40482203 12.220178,3.125 11.875,3.125 L10.625,3.125 L10.625,3.75 C10.625,4.09517797 10.345178,4.375 10,4.375 C9.65482203,4.375 9.375,4.09517797 9.375,3.75 L9.375,3.125 L5.625,3.125 L5.625,3.75 C5.625,4.09517797 5.34517797,4.375 5,4.375 C4.65482203,4.375 4.375,4.09517797 4.375,3.75 L4.375,3.125 L3.125,3.125 C2.77982203,3.125 2.5,3.40482203 2.5,3.75 L2.5,5.625 L12.5,5.625 Z M12.5,6.875 L2.5,6.875 L2.5,12.5 C2.5,12.845178 2.77982203,13.125 3.125,13.125 L11.875,13.125 C12.220178,13.125 12.5,12.845178 12.5,12.5 L12.5,6.875 Z M5.625,1.875 L9.375,1.875 L9.375,1.25 C9.375,0.904822031 9.65482203,0.625 10,0.625 C10.345178,0.625 10.625,0.904822031 10.625,1.25 L10.625,1.875 L11.875,1.875 C12.9105339,1.875 13.75,2.71446609 13.75,3.75 L13.75,12.5 C13.75,13.5355339 12.9105339,14.375 11.875,14.375 L3.125,14.375 C2.08946609,14.375 1.25,13.5355339 1.25,12.5 L1.25,3.75 C1.25,2.71446609 2.08946609,1.875 3.125,1.875 L4.375,1.875 L4.375,1.25 C4.375,0.904822031 4.65482203,0.625 5,0.625 C5.34517797,0.625 5.625,0.904822031 5.625,1.25 L5.625,1.875 Z" id="path-1"></path>
+    </defs>
+    <g id="F&amp;I---F&amp;I-Analysis" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-49.000000, -227.000000)">
+        <g id="Background">
+            <g id="Left-Menu" transform="translate(0.000000, 68.000000)">
+                <g id="calendar" transform="translate(48.000000, 159.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Combined-Shape" fill="#000000" fill-rule="nonzero" xlink:href="#path-1"></use>
+                    <g id="COLOR/-white" mask="url(#mask-2)" fill="#FFFFFF" fill-rule="evenodd">
+                        <rect id="Rectangle" x="0" y="0" width="15" height="15"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
